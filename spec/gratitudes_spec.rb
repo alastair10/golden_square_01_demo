@@ -25,6 +25,5 @@ RSpec.describe Gratitudes do
     result = gratitudes.add("formula 2")
     expect(result).to eq ["formula 1","formula 2"]
   end
-
 end
 
