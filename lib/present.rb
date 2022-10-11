@@ -6,6 +6,6 @@ class Present
 
   def unwrap
     fail "No contents have been wrapped." if @contents.nil?
-    return @ contents
+    return @contents
   end
 end
